@@ -25,7 +25,7 @@ header {
 .search-form-input {
   background-color: #eaf7ff;
   border: none;
-  border-radius: 6px;
+  border-radius: 14px;
   width: 80%;
   padding: 15px 20px;
   font-size: 15px;
@@ -36,7 +36,7 @@ header {
   padding: 15px 30px;
   margin-left: 5px;
   border: none;
-  border-radius: 6px;
+  border-radius: 14px;
   color: #ffffff;
   font-size: 15px;
   transition: all 200ms ease-in-out;
@@ -47,7 +47,7 @@ header {
   cursor: pointer;
 }
 
-.weather-data {
+.current-weather-data {
   display: flex;
   justify-content: space-between;
 }
