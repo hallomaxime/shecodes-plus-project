@@ -39,6 +39,12 @@ header {
   border-radius: 6px;
   color: #ffffff;
   font-size: 15px;
+  transition: all 200ms ease-in-out;
+}
+
+.search-form-button:hover {
+  background: #268ac9;
+  cursor: pointer;
 }
 
 .weather-data {
