@@ -8,6 +8,10 @@ function refreshWeather(response) {
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
 
+  let iconElement = document.querySelector("#icon");
+
+  iconElement.innerHTML = `<img class="weather-icon" src="${response.data.condition.icon_url}" />`;
+
   cityElement.innerHTML = response.data.city;
   timeElement.innerHTML = formatDate(date);
   temperatureElement.innerHTML = Math.round(temperature);

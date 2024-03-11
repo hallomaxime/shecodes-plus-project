@@ -78,13 +78,12 @@ main {
 }
 
 .weather-icon {
-  font-size: 44px;
-  margin-top: 15px;
+  width: 88px;
 }
 
 .weather-temperature {
-  margin-left: 10px;
-  font-size: 96px;
+  margin: 10px 0 0 10px;
+  font-size: 88px;
   font-weight: bold;
 }
 
