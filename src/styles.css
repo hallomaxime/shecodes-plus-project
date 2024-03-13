@@ -97,7 +97,7 @@ main {
 
 .weather-forecast {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
 }
 
@@ -112,7 +112,17 @@ main {
 }
 
 .weather-forecast-icon {
-  margin: 10px;
+  width: 80%;
+}
+
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.weather-forecast-temperatures-max,
+.weather-forecast-temperatures-min {
+  margin: 0 5px;
 }
 
 .weather-forecast-temperatures-min {
