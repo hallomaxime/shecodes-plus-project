@@ -69,7 +69,9 @@ main {
   color: rgba(33, 48, 66, 0.4);
 }
 
-.weather-details strong {
+.weather-details strong,
+.weather-forecast-temperatures-max,
+.weather-forecast-temperatures-min {
   color: #ff647e;
 }
 
@@ -91,6 +93,26 @@ main {
   margin-top: 16px;
   font-size: 28px;
   font-weight: 500;
+}
+
+.weather-forecast {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-sml {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.weather-forecast-date {
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperatures-min {
+  opacity: 0.6;
 }
 
 footer {
